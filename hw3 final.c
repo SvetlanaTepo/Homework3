@@ -16,7 +16,7 @@ enum event {SCANNING_CARD, CARD_OKAY, CARD_FAKE, ENTER_IN,APPLICATION_ERROR, WAI
 int n = 0; //the initial amount of passangers who got into the subway 
 
 
-enum state {STAY, CARD_PROCESSING, JUST_ENTER, GO_OUT, ALLOWED, ERROR} ; //all possible feedback that the machine can give
+enum state {STAY, CARD_PROCESSING, JUST_ENTER, GO_OUT, ALLOWED, ERROR} ; //all possible feedback that the operation system can give
 
 enum state current = STAY; 
 
